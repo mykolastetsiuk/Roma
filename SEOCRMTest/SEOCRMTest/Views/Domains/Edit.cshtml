@@ -1,0 +1,120 @@
+@model SEOCRMTest.Models.WorkSpaceModels.Domain
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form asp-action="Edit">
+    <div class="form-horizontal">
+        <h4>Domain</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+        <div class="form-group">
+            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="MainDomain" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="MainDomain" class="form-control" />
+                <span asp-validation-for="MainDomain" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="IP" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="IP" class="form-control" />
+                <span asp-validation-for="IP" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ExpiredDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ExpiredDate" class="form-control" />
+                <span asp-validation-for="ExpiredDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ServerId" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <select asp-for="ServerId" class="form-control" asp-items="ViewBag.ServerId"></select>
+                <span asp-validation-for="ServerId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="RegistrarId" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <select asp-for="RegistrarId" class="form-control" asp-items="ViewBag.RegistrarId"></select>
+                <span asp-validation-for="RegistrarId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ProjectId" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <select asp-for="ProjectId" class="form-control" asp-items="ViewBag.ProjectId"></select>
+                <span asp-validation-for="ProjectId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="OwnerId" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <select asp-for="OwnerId" class="form-control" asp-items="ViewBag.OwnerId"></select>
+                <span asp-validation-for="OwnerId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="TypeDomainId" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <select asp-for="TypeDomainId" class="form-control" asp-items="ViewBag.TypeDomainId"></select>
+                <span asp-validation-for="TypeDomainId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Redirect" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Redirect" class="form-control" />
+                <span asp-validation-for="Redirect" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="StatusDomainId" class="control-label col-md-2"></label>
+            <div class="col-md-10">
+                <select asp-for="StatusDomainId" class="form-control" asp-items="ViewBag.StatusDomainId"></select>
+                <span asp-validation-for="StatusDomainId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="DomainAdminPanelId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="DomainAdminPanelId" class="form-control" />
+                <span asp-validation-for="DomainAdminPanelId" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AdditionalInfo" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AdditionalInfo" class="form-control" />
+                <span asp-validation-for="AdditionalInfo" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

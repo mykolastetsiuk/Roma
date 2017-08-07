@@ -1,0 +1,10 @@
+c:\users\user\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\bin\Debug\netcoreapp1.1\SEOCRMTest.deps.json
+c:\users\user\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\bin\Debug\netcoreapp1.1\SEOCRMTest.runtimeconfig.json
+c:\users\user\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\bin\Debug\netcoreapp1.1\SEOCRMTest.runtimeconfig.dev.json
+c:\users\user\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\obj\Debug\netcoreapp1.1\SEOCRMTest.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+c:\users\user\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\obj\Debug\netcoreapp1.1\SEOCRMTest.AssemblyInfo.cs
+C:\Users\User\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\bin\Debug\netcoreapp1.1\SEOCRMTest.dll
+C:\Users\User\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\bin\Debug\netcoreapp1.1\SEOCRMTest.pdb
+C:\Users\User\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\obj\Debug\netcoreapp1.1\SEOCRMTest.dll
+C:\Users\User\documents\visual studio 2017\Projects\SEOCRMTest\SEOCRMTest\obj\Debug\netcoreapp1.1\SEOCRMTest.pdb
